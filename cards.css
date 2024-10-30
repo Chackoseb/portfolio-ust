@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(45deg, rgb(255, 182, 243), lightcyan);
+  margin-top: 60px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  /* background-color: rgba(255, 255, 255, 0.432);    */
+  z-index: 1000;
+  padding: 10px 20px;
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.section-heading {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 1200;
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+  margin: 0px;
+  justify-content: end;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 20px;
+  color: black;
+}
+
+.nav-list a {
+  color: black;
+  text-decoration: none;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: monospace;
+}
+
+.nav-list a:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+.header-name a {
+  text-decoration: none;
+  color: black;
+}
+
+.home-container {
+  height: 100vh;
+  display: flex;
+}
+
+.home-image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 182, 193, 0.13);
+}
+
+.home-content {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(211, 211, 211, 0.384);
+  padding: 150px;
+  justify-content: center;
+}
+
+.my-description {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+}
+
+.title-desc {
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-weight: 1000;
+  font-size: 19px;
+}
+
+#dp {
+  height: 400px;
+  width: 300px;
+}
+
+.your-name {
+  font-weight: 700;
+  font-size: 31px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.child {
+  height: 100%;
+  width: 30%;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.child:hover {
+  transform: scale(1.07);
+}
+
+.container {
+  /* background-image: linear-gradient(45deg, rgba(230, 97, 208, 0.356), rgba(138, 233, 233, 0.438)); */
+  background-color: rgba(255, 255, 255, 0.37);
+  height: 60vh;
+  margin: 50px 100px 50px 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 50px;
+  display: flex;
+  box-shadow: white;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#projects {
+  height: 100vh;
+}
+
+.proj-img {
+  width: 100%;
+  height: 45%;
+  object-fit: cover;
+}
+
+.card-body-text {
+  margin: 8%;
+}
+
+#skills {
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.skill-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-me {
+  height: 100vh;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.contact-details p {
+  margin: 10px 0;
+}
+
+.contact-details a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-details a:hover {
+  text-decoration: underline;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form label {
+  text-align: left;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.contact-form button {
+  padding: 10px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+#contact{
+    width: 100%;
+    background-color: rgba(240, 255, 240, 0.212);
+
+}
